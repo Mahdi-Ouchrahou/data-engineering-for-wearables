@@ -16,7 +16,7 @@ USE_CASE = [
 ]
 CSV_NAME = "Raw Data.csv"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-REPORT_FILE = os.path.join(BASE_DIR, "analysis.txt")
+REPORT_FILE = os.path.join(BASE_DIR,"results", "analysis.txt")
 
 
 
